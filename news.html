@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tin tức - TTP Shop</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/account.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/news.css">
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+	<script src="js/shared.js"></script>
+    <script>
+        window.onload = function () {
+            khoiTao();
+            // thêm tags (từ khóa) vào khung tìm kiếm
+            var tags = ["iPhone", "Samsung", "Oppo", "Xiaomi"];
+            for (var t of tags) addTags(t, "index.html?search=" + t);
+        }
+    </script>
+
+</head>
+
+<body>
+    <script> addTopNav();</script>
+
+    <section style="min-height: 85vh">
+        <script> addHeader(); </script>
+
+        <div class="body-tintuc">
+            <div class="tintuc-info">
+                <a href="https://www.thegioididong.com/tin-tuc/realme-12-pro-va-realme-12-pro-plus-sap-ra-mat-1559583" target="_blank">
+                    <img src="img/news/news1.jpg">
+                    <h2>Realme chính thức xác nhận ngày ra mắt Realme 12 Pro và 12 Pro+: Bậc thầy chân dung</h2>
+                </a>
+                <br/>
+                <h5>Thegioididong.com &emsp;15/01/2024</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://genk.vn/danh-gia-redmi-note-13-bon-uu-diem-khang-dinh-vi-the-smartphone-quoc-dan-20240115165943761.chn" target="_blank">
+                    <img src="img/news/news2.jpg">
+                    <h2>Đánh giá Redmi Note 13: Bốn ưu điểm khẳng định vị thế smartphone "quốc dân"</h2>
+                </a>
+                <br/>
+                <h5>GENK &emsp;16/01/2024</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://www.24h.com.vn/thoi-trang-hi-tech/mau-iphone-dep-khong-khac-iphone-moi-nhung-gia-re-hon-nhieu-c407a1535510.html" target="_blank">
+                    <img src="img/news/news3.jpg">
+                    <h2>Mẫu iPhone đẹp không khác iPhone mới nhưng giá rẻ hơn nhiều</h2>
+                </a>
+                <br/>
+                <h5>24Giờ  &emsp;15/01/2024</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://vnexpress.net/tinh-nang-huu-ich-voi-nguoi-dung-tren-galaxy-s23-ultra-4695316.html" target="_blank">
+                    <img src="img/news/news4.jpg">
+                    <h2>Tính năng hữu ích với người dùng trên Galaxy S23 Ultra</h2>
+                </a>
+                <br/>
+                <h5>VNEXPRESS &emsp;30/12/2023</h5>
+            </div>
+            <div class="tintuc-info" style="border-bottom: 0;">
+                <a href="https://kenh14.vn/ro-ri-loat-anh-iphone-16-pro-va-iphone-16-pro-max-nhieu-diem-khac-biet-so-voi-iphone-15-20240106000726347.chn" target="_blank">
+                    <img src="img/news/news5.jpg" height="148px" width="224px;">
+                    <h2>Rò rỉ loạt ảnh iPhone 16 Pro và iPhone 16 Pro Max, nhiều điểm khác biệt so với iPhone 15</h2>
+                </a>
+                <br/>
+                <h5>kenh14.vn &emsp;01/01/2024</h5>
+            </div> 
+
+        </div>
+
+    </section>
+
+    <script> addContainTaiKhoan(); </script>
+
+    <div class="footer">
+        <script>addFooter();</script>
+        
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+
+</body>
+
+</html>

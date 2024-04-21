@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giới thiệu - TTP Shop</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+        
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/account.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/introduce.css">
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+	<script src="js/shared.js"></script>
+    <script>
+        window.onload = function () {
+            khoiTao();
+            // thêm tags (từ khóa) vào khung tìm kiếm
+            var tags = ["iPhone", "Samsung", "Oppo", "Xiaomi"];
+            for (var t of tags) addTags(t, "index.html?search=" + t);
+        }
+    </script>
+
+</head>
+
+<body>
+    <script> addTopNav();</script>
+
+    <section style="min-height: 85vh">
+        <script> addHeader(); </script>
+
+        <div class="page-gt">
+            <h4 class="page-header">
+                Giới thiệu
+            </h4>
+            <div class="page-info">
+                <p>Chào mừng bạn đến với ứng dụng bán điện thoại - một nền tảng mua sắm trực tuyến hoàn hảo để 
+                    tìm kiếm và mua các sản phẩm di động với trải nghiệm mua sắm linh hoạt và thuận tiện. Với ứng
+                    dụng này, chúng tôi cam kết mang đến cho bạn không chỉ sự đa dạng về sản phẩm mà còn trải
+                    nghiệm mua sắm tuyệt vời.
+                </p>
+                <br />
+                <p><strong>Đặc Điểm Nổi Bật:</strong></p>
+                <br />
+                <ol>
+                    <li>
+                        <p>
+                            <strong>Đa Dạng Sản Phẩm:</strong>
+                            Ứng dụng cung cấp một loạt các điện thoại di động từ các thương hiệu hàng đầu trên
+                            thị trường. Từ smartphone tới điện thoại giá rẻ, chúng tôi tự tin rằng bạn sẽ tìm 
+                            thấy sản phẩm phù hợp với nhu cầu và ngân sách của mình.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <strong>Ưu Đãi và Khuyến Mãi:</strong>
+                            Chúng tôi không chỉ mang đến sản phẩm chất lượng mà còn luôn cập nhật ưu đãi và khuyến 
+                            mãi hấp dẫn. Bạn có thể mong đợi những chương trình giảm giá đặc biệt, quà tặng kèm và 
+                            các ưu đãi độc quyền khi sử dụng ứng dụng của chúng tôi.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <strong>Trải Nghiệm Mua Sắm Thân Thiện Người Dùng:</strong>
+                            Giao diện người dùng của ứng dụng được thiết kế để đảm bảo sự thuận tiện và dễ sử dụng.
+                            Bạn có thể dễ dàng tìm kiếm, so sánh giá, đọc đánh giá sản phẩm và thực hiện thanh toán 
+                            một cách nhanh chóng.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <strong>Đánh Giá và Nhận Xét:</strong>
+                            Để giúp bạn đưa ra quyết định mua sắm thông tin, chúng tôi cung cấp phản hồi từ người 
+                            dùng khác thông qua đánh giá và nhận xét. Điều này giúp tăng cường tính minh bạch và 
+                            đáng tin cậy trong quá trình mua sắm.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <strong>Giao Hàng Nhanh Chóng và An Toàn:</strong>
+                            Chúng tôi cam kết đưa sản phẩm đến tay bạn một cách nhanh chóng và an toàn nhất. Hệ
+                            thống giao hàng của chúng tôi được thiết kế để đảm bảo rằng bạn nhận được sản phẩm một 
+                            cách dễ dàng và không gặp vấn đề.
+                        </p>
+                    </li>
+                </ol>
+                <br />
+                <p>Ứng dụng bán điện thoại của chúng tôi không chỉ là nơi để mua sắm, mà còn là một trải nghiệm thú 
+                    vị và tiện ích. Hãy cùng trải nghiệm sự thuận tiện và tiết kiệm thời gian khi mua sắm điện thoại 
+                    di động qua ứng dụng của chúng tôi ngay hôm nay!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script> addContainTaiKhoan(); </script>
+
+    <div class="footer">
+        <script>addFooter();</script>
+        
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+</body>
+
+</html>

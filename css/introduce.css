@@ -1,0 +1,21 @@
+.page-gt {
+	width: 80%;
+	margin: 50px 0 150px 100px;
+}
+
+.page-header {
+	height: 40px;
+	background: #ffa600;
+	line-height: 40px;
+	padding-left: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.page-info {
+	font-size: 15px;
+	margin-top: 10px;
+}
+ol li{
+	margin-left: 30px;
+}
